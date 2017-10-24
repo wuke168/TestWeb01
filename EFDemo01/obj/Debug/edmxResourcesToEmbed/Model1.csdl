@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BCL_Goods">
+    <Key>
+      <PropertyRef Name="SysNo" />
+    </Key>
+    <Property Name="SysNo" Type="Guid" Nullable="false" />
+    <Property Name="GoodsTitle" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ArticleNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserSysNo" Type="Guid" Nullable="false" />
+    <Property Name="SkuId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CategorySysNo" Type="Guid" Nullable="false" />
+    <Property Name="Weight" Type="Double" Nullable="false" />
+    <Property Name="Fabric" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Style" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Size" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Color" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Format" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Dimension" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ClearAmount" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="PackageAmount" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="MarginAmount" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="OutAmount" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="SendAmount" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="BarCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SetsLableSysNo" Type="Guid" Nullable="false" />
+    <Property Name="LastDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ServiceAmount" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="BrandSysNo" Type="Guid" Nullable="false" />
+    <Property Name="Long" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Width" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Height" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Remark" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="ExtendValue" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BCL_Goods" EntityType="Self.BCL_Goods" />
+  </EntityContainer>
+</Schema>

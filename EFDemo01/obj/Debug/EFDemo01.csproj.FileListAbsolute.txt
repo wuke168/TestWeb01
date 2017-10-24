@@ -1,0 +1,14 @@
+E:\我的项目\EFDemo01\EFDemo01\bin\Debug\EFDemo01.exe.config
+E:\我的项目\EFDemo01\EFDemo01\bin\Debug\EFDemo01.exe
+E:\我的项目\EFDemo01\EFDemo01\bin\Debug\EFDemo01.pdb
+E:\我的项目\EFDemo01\EFDemo01\obj\Debug\EFDemo01.csprojResolveAssemblyReference.cache
+E:\我的项目\EFDemo01\EFDemo01\obj\Debug\EFDemo01.Form1.resources
+E:\我的项目\EFDemo01\EFDemo01\obj\Debug\EFDemo01.Properties.Resources.resources
+E:\我的项目\EFDemo01\EFDemo01\obj\Debug\EFDemo01.csproj.GenerateResource.Cache
+E:\我的项目\EFDemo01\EFDemo01\obj\Debug\EFDemo01.exe
+E:\我的项目\EFDemo01\EFDemo01\obj\Debug\EFDemo01.pdb
+E:\我的项目\EFDemo01\EFDemo01\bin\Debug\EntityFramework.dll
+E:\我的项目\EFDemo01\EFDemo01\bin\Debug\EntityFramework.SqlServer.dll
+E:\我的项目\EFDemo01\EFDemo01\bin\Debug\EntityFramework.xml
+E:\我的项目\EFDemo01\EFDemo01\bin\Debug\EntityFramework.SqlServer.xml
+E:\我的项目\EFDemo01\EFDemo01\bin\Debug\zh-Hans\EntityFramework.resources.dll

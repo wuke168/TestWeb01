@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="BCL_Goods">
+      <EntityTypeMapping TypeName="Model.BCL_Goods">
+        <MappingFragment StoreEntitySet="BCL_Goods">
+          <ScalarProperty Name="SysNo" ColumnName="SysNo" />
+          <ScalarProperty Name="GoodsTitle" ColumnName="GoodsTitle" />
+          <ScalarProperty Name="ArticleNo" ColumnName="ArticleNo" />
+          <ScalarProperty Name="UserSysNo" ColumnName="UserSysNo" />
+          <ScalarProperty Name="SkuId" ColumnName="SkuId" />
+          <ScalarProperty Name="CategorySysNo" ColumnName="CategorySysNo" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="Fabric" ColumnName="Fabric" />
+          <ScalarProperty Name="Style" ColumnName="Style" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Format" ColumnName="Format" />
+          <ScalarProperty Name="Dimension" ColumnName="Dimension" />
+          <ScalarProperty Name="ClearAmount" ColumnName="ClearAmount" />
+          <ScalarProperty Name="PackageAmount" ColumnName="PackageAmount" />
+          <ScalarProperty Name="MarginAmount" ColumnName="MarginAmount" />
+          <ScalarProperty Name="OutAmount" ColumnName="OutAmount" />
+          <ScalarProperty Name="SendAmount" ColumnName="SendAmount" />
+          <ScalarProperty Name="BarCode" ColumnName="BarCode" />
+          <ScalarProperty Name="SetsLableSysNo" ColumnName="SetsLableSysNo" />
+          <ScalarProperty Name="LastDate" ColumnName="LastDate" />
+          <ScalarProperty Name="ServiceAmount" ColumnName="ServiceAmount" />
+          <ScalarProperty Name="BrandSysNo" ColumnName="BrandSysNo" />
+          <ScalarProperty Name="Long" ColumnName="Long" />
+          <ScalarProperty Name="Width" ColumnName="Width" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="ExtendValue" ColumnName="ExtendValue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

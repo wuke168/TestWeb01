@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BCL_Goods">
+    <Key>
+      <PropertyRef Name="SysNo" />
+    </Key>
+    <Property Name="SysNo" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="GoodsTitle" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="ArticleNo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="UserSysNo" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="SkuId" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CategorySysNo" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Weight" Type="float" Nullable="false" />
+    <Property Name="Fabric" Type="varchar" MaxLength="200" />
+    <Property Name="Style" Type="varchar" MaxLength="50" />
+    <Property Name="Size" Type="varchar" MaxLength="50" />
+    <Property Name="Color" Type="varchar" MaxLength="50" />
+    <Property Name="Format" Type="varchar" MaxLength="50" />
+    <Property Name="Dimension" Type="varchar" MaxLength="50" />
+    <Property Name="ClearAmount" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="PackageAmount" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="MarginAmount" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="OutAmount" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="SendAmount" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="BarCode" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="SetsLableSysNo" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="LastDate" Type="datetime" Nullable="false" />
+    <Property Name="ServiceAmount" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="BrandSysNo" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Long" Type="varchar" MaxLength="50" />
+    <Property Name="Width" Type="varchar" MaxLength="50" />
+    <Property Name="Height" Type="varchar" MaxLength="50" />
+    <Property Name="Remark" Type="varchar" MaxLength="500" />
+    <Property Name="ExtendValue" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="BCL_Goods" EntityType="Self.BCL_Goods" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
